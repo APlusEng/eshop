@@ -7,7 +7,7 @@
                         <div class="breadcumb-wrap text-center">
                             <h2>Blog Right Sidebar</h2>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{url('pages/index')}}">Home</a></li>
                                 <li>/</li>
                                 <li class="active">Blog</li>
                             </ul>
@@ -57,7 +57,7 @@
                                 <ul>
                                     <li>
                                         <div class="post-img">
-                                            <img src="assets/images/post/1.jpg" alt="">
+                                            <img src="{{asset('assets/images/post/1.jpg')}}" alt="">
                                         </div>
                                         <div class="post-content">
                                             <a href="#">Vivamus ut mauris a dui fringilla mattis a sit amet lectus.</a>
@@ -66,7 +66,7 @@
                                     </li>
                                     <li>
                                         <div class="post-img">
-                                            <img src="assets/images/post/2.jpg" alt="">
+                                            <img src="{{asset('assets/images/post/2.jpg')}}" alt="">
                                         </div>
                                         <div class="post-content">
                                             <a href="#">Nam lacus dolor, egestas eget ultrices sed, congue eget lorem.</a>
@@ -75,7 +75,7 @@
                                     </li>
                                     <li>
                                         <div class="post-img">
-                                            <img src="assets/images/post/3.jpg" alt="">
+                                            <img src="{{asset('assets/images/post/3.jpg')}}" alt="">
                                         </div>
                                         <div class="post-content">
                                             <a href="#">Mauris vel ullamcorper mauris, eu faucibus est.</a>
@@ -106,7 +106,7 @@
                             <div class="col-xs-12">
                                 <div class="blog-wrap">
                                     <div class="blog-img">
-                                        <img src="assets/images/blog/1.png" alt="">
+                                        <img src="{{asset('assets/images/blog/1.png')}}" alt="">
                                     </div>
                                     <div class="blog-content">
                                         <ul class="blog-meta">
@@ -123,7 +123,7 @@
                             <div class="col-xs-12">
                                 <div class="blog-wrap">
                                     <div class="blog-img">
-                                        <img src="assets/images/blog/2.png" alt="">
+                                        <img src="{{asset('assets/images/blog/2.png')}}" alt="">
                                     </div>
                                     <div class="blog-content">
                                         <ul class="blog-meta">
@@ -140,7 +140,7 @@
                             <div class="col-xs-12">
                                 <div class="blog-wrap">
                                     <div class="blog-img">
-                                        <img src="assets/images/blog/3.png" alt="">
+                                        <img src="{{asset('assets/images/blog/3.png')}}" alt="">
                                     </div>
                                     <div class="blog-content">
                                         <ul class="blog-meta">
@@ -157,7 +157,7 @@
                             <div class="col-xs-12">
                                 <div class="blog-wrap">
                                     <div class="blog-img">
-                                        <img src="assets/images/blog/4.png" alt="">
+                                        <img src="{{asset('assets/images/blog/4.png')}}" alt="">
                                     </div>
                                     <div class="blog-content">
                                         <ul class="blog-meta">

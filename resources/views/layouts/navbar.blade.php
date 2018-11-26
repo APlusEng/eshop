@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TattooZ - Blog</title>
+        <title>TattooZ </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -178,13 +178,13 @@
                             <div class="footer-widget footer-menu">
                                 <h2>Short Link</h2>
                                 <ul>
-                                    <li><a href="service.html">Service </a></li>
-                                    <li><a href="about.html">About US </a></li>
-                                    <li><a href="#">Booking </a></li>
-                                    <li><a href="shop.html">Shop </a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="blog.html">Latest News</a></li>
-                                    <li><a href="blog.html">Latest News</a></li>
+                                    <li><a href="{{url('pages/service')}}">Service </a></li>
+                                    <li><a href="{{url('pages/about')}}">About US </a></li>
+                                    <li><a href="{{url('pages/booking')}}">Booking </a></li>
+                                    <li><a href="{{url('pages/shop')}}">Shop </a></li>
+                                    <li><a href="{{url('pages/contact')}}">Contact</a></li>
+                                    <li><a href="{{url('pages/blog')}}">Latest News</a></li>
+                                    <li><a href="{{url('pages/blog')}}">Latest News</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -194,42 +194,42 @@
                                 <ul>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/1.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/1.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/2.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/2.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/3.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/3.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/4.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/4.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/5.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/5.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/6.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/6.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/7.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/7.jpg')}}" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img src="assets/images/instragram/8.jpg" alt="">
+                                            <img src="{{asset('assets/images/instragram/8.jpg')}}" alt="">
                                         </a>
                                     </li>
                                 </ul>

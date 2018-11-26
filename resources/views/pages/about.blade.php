@@ -9,7 +9,7 @@
                         <div class="breadcumb-wrap text-center">
                             <h2>ABOUT US</h2>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="{{url('pages/index')}}">Home</a></li>
                                 <li>/</li>
                                 <li class="active">About</li>
                             </ul>
@@ -35,12 +35,12 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-12 ">
                                 <div class="about-img">
-                                    <img src="assets/images/about/1.jpg" alt="">
+                                    <img src="{{asset('assets/images/about/1.jpg')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6 hidden-sm">
                                 <div class="about-img">
-                                    <img src="assets/images/about/2.jpg" alt="">
+                                    <img src="{{asset('assets/images/about/2.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-md-6 hidden-sm hidden-xs">
                         <div class="about-img">
-                            <img src="assets/images/about/3.png" alt="">
+                            <img src="{{asset('assets/images/about/3.png')}}" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
@@ -63,7 +63,7 @@
                             <h3>Our Tattoos Last Longer Than Most Marriages.</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nibh dapibus lectus pharetra, eu pellentesque quam iaculis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis nibh dapibus Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, aliquam.consectetur adipisicing elit. Vero, aliquam.dipiscing elit. Etiam mattis nibh dapibus</p>
                             <p>Integer quis sem lectus. Suspendisse ultrices odio elit. Praesent rhoncus, magna sed pulvinar aliquet, libero ligula ornare risus, eu viverra orci lorem fringilla velit. Curabitur a felis efficitur, tincidunt magna eu, accumsan eros. Nullam eget sapien dapibus, condimentum mi vitae, dapibus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut facilisis enim velit. Integer hendrerit nisl id nulla vestibulum, eget vestibulum orci fermentum. Phasellus urna leo, auctor in elit sed, rhoncus viverra est. Integer nec venenatis mauris, nec aliquam magna.</p>
-                            <a href="about.html">View All</a>
+                            <a href="{{url('pages/about')}}">View All</a>
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="col-md-6 hidden-sm hidden-xs">
                         <div class="about-img">
-                            <img src="assets/images/about/4.jpg" alt="">
+                            <img src="{{asset('assets/images/about/4.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -214,21 +214,21 @@
                         <div class="test-active">
                             <div class="test-items text-center">
                                 <div class="test-img">
-                                    <img src="assets/images/test/1.png" alt="">
+                                    <img src="{{asset('assets/images/test/1.png')}}" alt="">
                                 </div>
                                 <h2>Dele Herera</h2>
                                 <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum metus quis condimentum auctor. Maecenas eu urna vel turpis lacinia consectetur. Proin ornare convallis erat. <i class="fa fa-quote-right"></i> </p>
                             </div>
                             <div class="test-items text-center">
                                 <div class="test-img">
-                                    <img src="assets/images/test/2.png" alt="">
+                                    <img src="{{asset('assets/images/test/2.png')}}" alt="">
                                 </div>
                                 <h2>Alex Smit</h2>
                                 <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum metus quis condimentum auctor. Maecenas eu urna vel turpis lacinia consectetur. Proin ornare convallis erat. <i class="fa fa-quote-right"></i> </p>
                             </div>
                             <div class="test-items text-center">
                                 <div class="test-img">
-                                    <img src="assets/images/test/3.png" alt="">
+                                    <img src="{{asset('assets/images/test/3.png')}}" alt="">
                                 </div>
                                 <h2>Pedro Herera</h2>
                                 <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque bibendum metus quis condimentum auctor. Maecenas eu urna vel turpis lacinia consectetur. Proin ornare convallis erat. <i class="fa fa-quote-right"></i> </p>
@@ -247,22 +247,22 @@
                     <div class="brand-active">
                         <div class="col-xs-12">
                             <a href="#">
-                                <img src="assets/images/brand/1.png" alt="">
+                                <img src="{{asset('assets/images/brand/1.png')}}" alt="">
                             </a>
                         </div>
                         <div class="col-xs-12">
                             <a href="#">
-                                <img src="assets/images/brand/2.png" alt="">
+                                <img src="{{asset('assets/images/brand/2.png')}}" alt="">
                             </a>
                         </div>
                         <div class="col-xs-12">
                             <a href="#">
-                                <img src="assets/images/brand/3.png" alt="">
+                                <img src="{{asset('assets/images/brand/3.png')}}" alt="">
                             </a>
                         </div>
                         <div class="col-xs-12">
                             <a href="#">
-                                <img src="assets/images/brand/4.png" alt="">
+                                <img src="{{asset('assets/images/brand/4.png')}}" alt="">
                             </a>
                         </div>
                     </div>
